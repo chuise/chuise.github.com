@@ -41,7 +41,7 @@ title: Mr. Hyde
 
 	<section>
 		{% for post in site.posts %}
-			{{ post.title }}
+			<a href="{{ post.permalink }}">{{ post.title }}</a>
 		{% endfor %}
 	</section>
 
