@@ -1,49 +1,15 @@
 ---
-title: Mr. Hyde
+layout: default
+title: "Kevin M. Jackson | Chuise"
+description: "I'm a Philly-area designer. Just a poor wayfaring stranger."
 ---
-<!DOCTYPE html>
-<html>
-<head>
-	<title>{{ page.title }}</title>
-	
-	<meta name="description" content="I'm Kevin. This is my playground." />
-	<meta name="author" content="Kevin M. Jackson" />
-	
-	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-	
-	<script type="text/javascript" src="http://use.typekit.com/ora7ych.js"></script>
-	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
-	<style type="text/css">
-		@import url(http://reset5.googlecode.com/hg/reset.min.css);
 
-		body {
-			  -webkit-font-smoothing: antialiased;
-			  color: #444;
-			  font-family: "franklin-gothic-urw-cond-1", "franklin-gothic-urw-cond-2", 'Helvetica Neue', helvetica, arial, sans-serif;
-			  margin: 0;
-			  padding: 0;
-			  text-rendering: optimizeLegibility;
-		}
-
-		#header { margin: 3em; }
-
-		#header h1 { font-size: 3em; line-height: 1em; margin-bottom: .25em; }
-
-		#header h2 { color: #dadada; font-size: 2em; }
-	</style>
-</head>
-<body>
-	<section id="header">
-		<h1>lab.chuise.com</h1>
-		<h2>I'm Kevin. This is my playground.</h2>
-	</section>
-
-	<section>
-		{% for post in site.posts %}
-			<a href="{{ post.url }}">{{ post.title }}</a>
-		{% endfor %}
-	</section>
-
-</body>
-</html>
+<section>
+	{% for post in site.posts %}
+		<article>
+			<h1><a href="{{ post.permalink }}">{{ post.title }}</a></h1>
+			<p>{{ post.summary }}</p>
+		</article>
+	{% endfor %}
+</section>
