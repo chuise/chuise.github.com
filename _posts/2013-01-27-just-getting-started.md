@@ -1,10 +1,18 @@
 ---
-layout: default
+layout: post
 title: "Just Getting Started"
+author: "Kevin M. Jackson"
 description: "Getting started with Jekyll and Github pages."
 summary: "This is the getting started summary. This should probably be something that is really mind blowing that sucks the reader in."
+tags: [just, getting, started]
 ---
 
-# Just Getting Started
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec facilisis metus. Sed id auctor odio. Nulla non purus et leo fringilla ultricies vel quis erat. Proin lobortis consequat dui id condimentum. Ut interdum lorem lectus. Nunc adipiscing lectus id arcu pretium semper. Donec vehicula magna vel enim luctus cursus. Phasellus sit amet lorem lacus, eu euismod sem.
 
-If all goes well this will by my first post using Jekyll and Github pages.
+Pellentesque hendrerit aliquam lacus, quis ornare est consequat sed. Sed congue leo nec massa pretium a pharetra orci auctor. Proin ut lacus eget libero ornare condimentum ac eu tellus. Praesent eget mauris diam, sit amet hendrerit quam. Proin ut ipsum id tellus sollicitudin egestas eget a libero. Nullam pharetra dapibus tellus eget elementum. Sed sed quam nec tortor congue mollis in et turpis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc imperdiet dui consequat mi porttitor sagittis. Praesent bibendum feugiat tortor sit amet convallis. Nam eget ultrices metus. Vestibulum elementum urna quis ligula sollicitudin sit amet porta tellus mattis. Nulla commodo, elit consectetur elementum tempor, neque nibh dapibus nisi, a scelerisque mauris ligula ut dui.
+
+Etiam sit amet sem eros. Sed nunc velit, auctor a pharetra quis, varius sed sapien. Sed ac turpis vel diam fermentum imperdiet. Nunc aliquam tellus vel neque tempus egestas. Quisque fermentum ultrices risus ut molestie. Nunc mollis, sem imperdiet pharetra varius, tortor turpis sagittis augue, elementum vehicula turpis nibh et massa. Vestibulum leo lacus, tristique eu iaculis in, consequat eu elit. Curabitur tincidunt libero at lectus egestas sit amet adipiscing leo ullamcorper. Phasellus porta tempus odio quis tincidunt. Phasellus lacus est, sollicitudin eu blandit sit amet, elementum id sapien. Vestibulum cursus, risus non placerat cursus, dolor neque adipiscing massa, quis sollicitudin orci purus ac risus. Fusce pulvinar fermentum aliquam. Integer condimentum, ante id imperdiet molestie, nisi massa consequat velit, at mollis tellus nisl sed tellus. Maecenas vestibulum blandit mi quis varius. Aenean semper mauris ut libero sodales vel ullamcorper quam lacinia.
+
+Nunc varius pretium est sit amet molestie. Etiam feugiat mauris nec arcu pharetra sit amet tristique nisl aliquet. Donec id ante justo. Ut varius convallis arcu id dictum. Fusce suscipit ligula ac arcu adipiscing non ullamcorper turpis accumsan. Maecenas eget condimentum diam. Sed pulvinar semper justo, et mollis lorem mattis vitae. Integer pretium magna ac tellus porta tristique. Pellentesque vestibulum mollis fermentum. Nullam suscipit, libero sed ullamcorper consequat, est augue molestie nisl, vehicula rutrum velit massa sit amet odio. Morbi ante mauris, luctus eu posuere in, dapibus eu metus. Morbi nec egestas enim. Cras eu risus nunc, vitae ultrices purus.
+
+Aliquam erat volutpat. Aliquam urna velit, tristique vel congue eu, fringilla sed nunc. Nam et turpis vel mi convallis mattis. Curabitur pretium lorem ut risus tempor et fringilla odio luctus. Nulla facilisi. Suspendisse potenti. Suspendisse ut arcu nisi, eget vestibulum leo. Integer ac libero ac nisi vulputate consectetur ac sit amet lacus. Phasellus nulla lacus, pharetra in facilisis in, pellentesque at urna. Donec ac sapien mauris, ac convallis quam. Nam imperdiet tristique lacus eu dictum. Morbi ac sem erat.
