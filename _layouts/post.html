@@ -1,11 +1,13 @@
 {% include header.liquid %}
 <body data-spy="scroll" data-target="#tags">
+	{% include navigation.liquid %}
+	
 	<div id="main_content">
 		<section>
 			<article>
 				<header>
 					<h1>{{ page.title }}</h1>
-					<p>{{ page.author }} wrote this on {{ page.date | date: "%B %d, %Y" }}.</p>
+					<p><em>{{ page.author }}</em> wrote this on <em>{{ page.date | date: "%B %d, %Y" }}</em>.</p>
 				</header>
 				<div class="article_body">
 					<p>{{ page.summary }}</p>
@@ -24,5 +26,15 @@
 			</article>
 		</section>
 	</div>
+
+	{% include footer.liquid %}
+
+	<script type="text/javascript">
+		// Figure out what the location is of the bottom of the tags section
+		// Use that number to set the scroll location
+		// Once that locatoin has been reached display a To The Top link
+		// Fade the To the Top link out once the visitor scrolls back to the top
+	</script>
+
 </body>
 </html>

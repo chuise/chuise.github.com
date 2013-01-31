@@ -1,26 +1,10 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>{{ page.title }}</title>
-	
-	<meta name="description" content="{{ page.description }}" />
-	<meta name="author" content="Kevin M. Jackson" />
-	
-	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-
-	<link rel="stylesheet" type="text/css" href="http://reset5.googlecode.com/hg/reset.min.css">
-	<link rel="stylesheet" type="text/css" href="/css/global.css">
-	
-	<script type="text/javascript" src="//use.typekit.net/utk8kvd.js"></script>
-	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-			  
-</head>
+{% include header.liquid %}
 <body>
-	<header>
-		<h1>Kevin M. Jackson</h1>
-	</header>
-	<section>
-		{{ content }}
-	</section>
+	{% include navigation.liquid %}
+	<div id="main_content">
+		<section>
+			{{ content }}
+		</section>
+	</div>
 </body>
 </html>

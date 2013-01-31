@@ -1,7 +1,11 @@
+
+
 $heading_stack: "pragmatica-web","Segoe UI","Helvetica Neue",sans-serif;
 $body_stack: "quatro-slab","Rockwell","Georgia",serif;
 
 $blue: #34888C;
+
+@import "reset";
 
 * {
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
@@ -14,16 +18,54 @@ body {
 	background-color: #fff;
 	color: #333;
 	font-family: 16px $body_stack;
+}
 
-	padding-top: 50px;
+#navigation_wrapper {
+	border-bottom: solid 1px #dadada;
+	margin-bottom: 3em;
+
+	nav {
+		max-width: 840px;
+		margin: 0 auto;
+		overflow: hidden;
+		position: relative;
+
+		li {
+			display: inline-block;
+			margin-right: 10px;
+
+			&:last-child {
+				margin-right: 0;
+			}
+		}
+
+		a {
+			line-height: 40px;
+			text-decoration: none;
+		}
+
+		#primary_navigation {
+			float: left;
+		}
+
+		#social_links {
+			float: right;
+		}
+	}
 }
 
 #main_content {
 	margin: 0 auto;
 	max-width: 860px;
+	overflow: hidden;
 
 	article {
 		margin: 0 10px;
+
+		em {
+			font-weight: bold;
+		}
+
 		header{
 			margin-bottom: 2em;
 
@@ -91,6 +133,23 @@ body {
 					}
 				}
 			}
+		}
+	}
+}
+
+#footer_wrapper {
+	background-color: #eaeaea;
+	border-top: solid 1px #dadada;
+	margin-top: 2em;
+	padding: 2em 0 6em;
+
+	footer {
+		font-family: $heading_stack;
+		margin: 0 auto;
+		max-width: 840px;
+
+		li {
+			display: inline-block;
 		}
 	}
 }
